@@ -115,6 +115,7 @@ public class file{
 				}
 			}
 			br.close();
+			brtmp.close();
 		}catch (FileNotFoundException ex){
 			 System.out.println(ex);
 		}catch(IOException ex){
@@ -166,6 +167,7 @@ public class file{
        		try {
        		    transformer.transform(new DOMSource(document),
        		                          new StreamResult(new File("hoge.xml")));
+       		
        		} catch (TransformerException e) {
        		    // 書き出しエラー発生
        		    e.printStackTrace();
@@ -178,6 +180,5 @@ public class file{
      	}catch(IOException e){
      		System.out.println(e);
      	}
-
 	}
 }
