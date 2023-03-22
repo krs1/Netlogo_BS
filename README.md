@@ -1,10 +1,10 @@
-#はじめに
+#　はじめに
 
 このプログラムはNetLogoのモデルファイルを編集するプログラムである.
 
 つまり.nlogoファイルの中身（変数）を編集するプログラム
 
-##事前準備
+##　事前準備
 一度BehaviorSpaceをやっておく必要がある
 やり方は下記を参照するとわかりやすいかも.
 
@@ -30,7 +30,7 @@ javac -encoding UTF-8 file.java
 
 
 
-##使用例
+##　使用例
 
 javac -encoding UTF-8 file.java
 
@@ -44,5 +44,5 @@ imput pram value:75
 
 木の密度を75%に置き換える
 
-##注意点
+##　注意点
 BehaviorSpaceのexperiment nameの設定には対応してないのでそこだけ
